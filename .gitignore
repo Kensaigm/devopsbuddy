@@ -36,3 +36,4 @@ nbdist/
 hs_err_pid*
 
 *.class
+src/main/stripe.properties
