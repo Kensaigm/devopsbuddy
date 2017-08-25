@@ -11,6 +11,7 @@ import com.devopsbuddy.web.i18n.I18NService;
 
 import junit.framework.Assert;
 
+@SuppressWarnings("deprecation")
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @WebAppConfiguration
@@ -20,6 +21,7 @@ public class DevopsbuddyApplicationTests {
 	@Autowired
 	private I18NService i18NService;
 	
+	@SuppressWarnings("deprecation")
 	@Test
 	public void testMessageByLocaleService() throws Exception{
 		String expectedResult = "Bootstrap starter template";
